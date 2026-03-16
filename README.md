@@ -146,6 +146,7 @@ This project is open source and available under the MIT License.
 
 # Streamlit Dashboard
 The project includes an interactive Streamlit dashboard where users can input listing details and receive a predicted Airbnb nightly price.
-![Airbnb Dashboard](images/dashboard.png)
 
 <img src="images/dashboard.png" width="900">
+
+
