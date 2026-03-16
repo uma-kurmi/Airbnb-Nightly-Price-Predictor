@@ -15,14 +15,12 @@ Removing invalid or missing prices
 Handling missing values
 Standardizing column formats
 Filtering unrealistic listings
-
 Script used:
 clean_listings_script.py
 
 2. Neighborhood Feature Construction
 Neighborhood-level information is extracted to enrich the dataset.
 This helps the model capture location-based pricing patterns.
-
 Script used:
 build_neighborhood_lookup.py
 
@@ -32,31 +30,26 @@ Numerical transformations
 Encoded categorical variables
 Aggregated listing features
 Derived host metrics
-
 Script used:
 feature_engineering.py
 
 4. Dataset Creation
 All processed features are combined into a single unified dataset used for modeling.
-
 Script used:
 create_unified_dataset.py
 
 5. Exploratory Data Analysis
 Initial analysis is performed to understand feature distributions and relationships with price.
-
 Script used:
 explore_features.py
 
 6. Baseline Model Training
 A simple regression model is trained to establish a baseline performance benchmark.
-
 Script used:
 train_baseline_model.py
 
 7. Gradient Boosting Model Training
 A more advanced model (Gradient Boosting) is trained to improve prediction accuracy.
-
 Script used:
 train_gbt_model.py
 
@@ -65,29 +58,25 @@ Models are evaluated using standard regression metrics:
 Mean Absolute Error (MAE)
 Root Mean Squared Error (RMSE)
 R² Score
-
 Script used:
 model_evaluation.py
 
 9. Model Explainability
 SHAP values are used to understand how features influence predictions.
 This helps identify the most important factors affecting Airbnb pricing.
-
 Script used:
 shap_explainability.py
 
 10. Interactive Dashboard
 A Streamlit application allows users to input listing features and receive a predicted nightly price.
-
 Script used:
 streamlit_dashboard.py
 
 # Run the dashboard with:
-
 streamlit run streamlit_dashboard.py
-Project Structure
+
+# Project Structure
 Airbnb-Nightly-Price-Predictor
-│
 ├── README.md
 ├── requirements.txt
 │
