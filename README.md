@@ -77,9 +77,11 @@ streamlit run streamlit_dashboard.py
 
 # Project Structure
 Airbnb-Nightly-Price-Predictor
+
 ├── README.md
+
 ├── requirements.txt
-│
+
 ├── clean_listings_script.py
 ├── build_neighborhood_lookup.py
 ├── feature_engineering.py
