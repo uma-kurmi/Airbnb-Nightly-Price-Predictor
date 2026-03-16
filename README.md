@@ -72,7 +72,7 @@ A Streamlit application allows users to input listing features and receive a pre
 Script used:
 streamlit_dashboard.py
 
-# Run the dashboard with:
+Run the dashboard with:
 streamlit run streamlit_dashboard.py
 
 # Project Structure
@@ -83,31 +83,33 @@ Airbnb-Nightly-Price-Predictor
 ├── requirements.txt
 
 ├── clean_listings_script.py
+
 ├── build_neighborhood_lookup.py
+
 ├── feature_engineering.py
+
 ├── create_unified_dataset.py
+
 ├── explore_features.py
-│
+
 ├── train_baseline_model.py
+
 ├── train_gbt_model.py
+
 ├── model_evaluation.py
-│
+
 ├── shap_explainability.py
-│
+
 └── streamlit_dashboard.py
-Installation
 
-Clone the repository:
-
+# Clone the repository:
 git clone https://github.com/uma-kurmi/Airbnb-Nightly-Price-Predictor.git
 cd Airbnb-Nightly-Price-Predictor
 
-Install required packages:
-
+# Install required packages:
 pip install -r requirements.txt
-How to Run the Project
 
-Run the scripts in the following order:
+# Run the scripts in the following order:
 
 python clean_listings_script.py
 python build_neighborhood_lookup.py
